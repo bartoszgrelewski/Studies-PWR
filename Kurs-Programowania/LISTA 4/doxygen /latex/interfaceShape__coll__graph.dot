@@ -1,0 +1,7 @@
+digraph "Shape"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Shape\n||+ contains()\l+ Draw()\l+ getColor()\l+ getX1()\l+ getX2()\l+ getY1()\l+ getY2()\l+ move()\l+ nazwa()\l+ resize()\l+ setColor()\l+ setX1()\l+ setX2()\l+ setY1()\l+ setY2()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

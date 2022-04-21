@@ -1,0 +1,360 @@
+\hypertarget{classCircle}{}\doxysection{Circle Class Reference}
+\label{classCircle}\index{Circle@{Circle}}
+
+
+Inheritance diagram for Circle\+:
+% FIG 0
+
+
+Collaboration diagram for Circle\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classCircle_ae1fd34b8fc56dcfae9d95cb30a422666}{contains}} (int x, int y)
+\item 
+void \mbox{\hyperlink{classCircle_a7b568ffb333fee7f2a2ece71b0f42300}{Draw}} (Graphics g)
+\item 
+Color \mbox{\hyperlink{classCircle_aeb9cfb56505a2598319db9565e27dde7}{get\+Color}} ()
+\item 
+int \mbox{\hyperlink{classCircle_a77149d57baa92ba577af87c9e630afc7}{get\+X1}} ()
+\item 
+int \mbox{\hyperlink{classCircle_afe00f18cbb3f89bd5dba5c0bd9d99adb}{get\+X2}} ()
+\item 
+int \mbox{\hyperlink{classCircle_a2d6c1431fa778827f3287fcff115faad}{get\+Y1}} ()
+\item 
+int \mbox{\hyperlink{classCircle_ad2d555d149082080d7a1f9e5c6ea7cbe}{get\+Y2}} ()
+\item 
+void \mbox{\hyperlink{classCircle_af25941e0d57cfd8cf4828d4c674baf04}{move}} (int x, int y)
+\item 
+String \mbox{\hyperlink{classCircle_ad39bf40411b26d34789a512b4eb357eb}{nazwa}} ()
+\item 
+void \mbox{\hyperlink{classCircle_abc5b33fcde20022b65011865c09931ec}{resize}} (int amount)
+\item 
+void \mbox{\hyperlink{classCircle_a7a643b7f4e331dda353862765385d566}{set\+Color}} (Color \mbox{\hyperlink{classCircle_ae8acf2e4bccf94ffc18c63aa2fb7360c}{color}})
+\item 
+void \mbox{\hyperlink{classCircle_a9660061d31bda087cc49e4da82cb7c44}{set\+X1}} (int \mbox{\hyperlink{classCircle_ad1bc41f6124ad669eac2abde4014b185}{x1}})
+\item 
+void \mbox{\hyperlink{classCircle_aa1516b33dae1f90b8bb81e0e8a05da63}{set\+X2}} (int \mbox{\hyperlink{classCircle_ad30be154c5d9819efc19982455d0df6a}{x2}})
+\item 
+void \mbox{\hyperlink{classCircle_af0c12a841c3fbe8525b87cb2b94a1cf1}{set\+Y1}} (int \mbox{\hyperlink{classCircle_a0fc0cb7f63bff9ec76685306672f2723}{y1}})
+\item 
+void \mbox{\hyperlink{classCircle_acb9c07dc079774289c4396f39252e2ee}{set\+Y2}} (int \mbox{\hyperlink{classCircle_ac5bd5c5b3b3167abb36f2940854ba25e}{y2}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classCircle_ab95f579b67540d2ef309bc8fa01c10e9}{a}}
+\item 
+int \mbox{\hyperlink{classCircle_afb50aa0e93593882b1cb4dc76ab15814}{b}}
+\item 
+int \mbox{\hyperlink{classCircle_a41aefb7927c6d862c54ed5c4b48cbda5}{c}}
+\item 
+Color \mbox{\hyperlink{classCircle_ae8acf2e4bccf94ffc18c63aa2fb7360c}{color}} = new Color(0)
+\item 
+int \mbox{\hyperlink{classCircle_af1412eef19a1ec9f3369f92d7f6e6b64}{d}}
+\item 
+int \mbox{\hyperlink{classCircle_ace534533ac3b9f6b60c2854cb0756592}{e}}
+\item 
+int \mbox{\hyperlink{classCircle_ad1bc41f6124ad669eac2abde4014b185}{x1}}
+\item 
+int \mbox{\hyperlink{classCircle_ad30be154c5d9819efc19982455d0df6a}{x2}}
+\item 
+int \mbox{\hyperlink{classCircle_a0fc0cb7f63bff9ec76685306672f2723}{y1}}
+\item 
+int \mbox{\hyperlink{classCircle_ac5bd5c5b3b3167abb36f2940854ba25e}{y2}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentujaca kolo 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCircle_ae1fd34b8fc56dcfae9d95cb30a422666}\label{classCircle_ae1fd34b8fc56dcfae9d95cb30a422666}} 
+\index{Circle@{Circle}!contains@{contains}}
+\index{contains@{contains}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean Circle.\+contains (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda sprawdzajaca czy najechano mysza na figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & polozenie myszki w poziomie \\
+\hline
+{\em y} & polozenie myszki w pionie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca czy nakierowano na figure 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a23fadce369cd81212c72543434e61c9f}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_a7b568ffb333fee7f2a2ece71b0f42300}\label{classCircle_a7b568ffb333fee7f2a2ece71b0f42300}} 
+\index{Circle@{Circle}!Draw@{Draw}}
+\index{Draw@{Draw}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Circle.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda wyznaczajaca maksymalne i minimalne wartosci punktow oraz rysujaca kolo 
+\begin{DoxyParams}{Parameters}
+{\em g} & grafika \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a8a84f04b0a9dc08eb969edcf1479b054}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_aeb9cfb56505a2598319db9565e27dde7}\label{classCircle_aeb9cfb56505a2598319db9565e27dde7}} 
+\index{Circle@{Circle}!getColor@{getColor}}
+\index{getColor@{getColor}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily Color Circle.\+get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca kolor dla figury \begin{DoxyReturn}{Returns}
+color kolor 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a4271dba03c30547a4e0c87418cc07bf8}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_a77149d57baa92ba577af87c9e630afc7}\label{classCircle_a77149d57baa92ba577af87c9e630afc7}} 
+\index{Circle@{Circle}!getX1@{getX1}}
+\index{getX1@{getX1}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getX1()}{getX1()}}
+{\footnotesize\ttfamily int Circle.\+get\+X1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolredna poczatkowego punktu \begin{DoxyReturn}{Returns}
+x1 pierwsza wspolrzedna poczatkowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a572e722f9ea159862c5b470be1073f89}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_afe00f18cbb3f89bd5dba5c0bd9d99adb}\label{classCircle_afe00f18cbb3f89bd5dba5c0bd9d99adb}} 
+\index{Circle@{Circle}!getX2@{getX2}}
+\index{getX2@{getX2}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getX2()}{getX2()}}
+{\footnotesize\ttfamily int Circle.\+get\+X2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolredna koncowego punktu \begin{DoxyReturn}{Returns}
+x2 pierwsza wspolrzedna koncowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_af79132f2d137c6e227af4cfaad89dc6d}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_a2d6c1431fa778827f3287fcff115faad}\label{classCircle_a2d6c1431fa778827f3287fcff115faad}} 
+\index{Circle@{Circle}!getY1@{getY1}}
+\index{getY1@{getY1}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getY1()}{getY1()}}
+{\footnotesize\ttfamily int Circle.\+get\+Y1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolredna poczatkowego punktu \begin{DoxyReturn}{Returns}
+y1 druga wspolrzedna poczatkowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_ae7b221dfce9904ca7f2db652a78ed075}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_ad2d555d149082080d7a1f9e5c6ea7cbe}\label{classCircle_ad2d555d149082080d7a1f9e5c6ea7cbe}} 
+\index{Circle@{Circle}!getY2@{getY2}}
+\index{getY2@{getY2}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{getY2()}{getY2()}}
+{\footnotesize\ttfamily int Circle.\+get\+Y2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolredna koncowego punktu \begin{DoxyReturn}{Returns}
+y2 druga wspolrzedna koncowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_ac9fa33bb3b5daa87edf2c15d6026df6c}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_af25941e0d57cfd8cf4828d4c674baf04}\label{classCircle_af25941e0d57cfd8cf4828d4c674baf04}} 
+\index{Circle@{Circle}!move@{move}}
+\index{move@{move}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Circle.\+move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda przesuwajaca figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & wartosc o ile przesunieto myszka w poziomie \\
+\hline
+{\em y} & wartosc o ile przesunieto myszka w pionie \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_aaeb8f4fbf37df5490465e5ea7f2a194f}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_ad39bf40411b26d34789a512b4eb357eb}\label{classCircle_ad39bf40411b26d34789a512b4eb357eb}} 
+\index{Circle@{Circle}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{nazwa()}{nazwa()}}
+{\footnotesize\ttfamily String Circle.\+nazwa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zwracajaca nazwe figury \begin{DoxyReturn}{Returns}
+nazwa kolo 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a6fc68149373bb18b0fda5fa8ce8e8570}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_abc5b33fcde20022b65011865c09931ec}\label{classCircle_abc5b33fcde20022b65011865c09931ec}} 
+\index{Circle@{Circle}!resize@{resize}}
+\index{resize@{resize}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily void Circle.\+resize (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zmieniajaca wielkosc figury 
+\begin{DoxyParams}{Parameters}
+{\em amount} & wartosc o ile przekrecono scrolla \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_aa5d3868a9a79c4525f8b28e7f21925df}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_a7a643b7f4e331dda353862765385d566}\label{classCircle_a7a643b7f4e331dda353862765385d566}} 
+\index{Circle@{Circle}!setColor@{setColor}}
+\index{setColor@{setColor}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Circle.\+set\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca kolor dla figury 
+\begin{DoxyParams}{Parameters}
+{\em color} & kolor \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_ab8601803653ba8cce7e129230186f4e6}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_a9660061d31bda087cc49e4da82cb7c44}\label{classCircle_a9660061d31bda087cc49e4da82cb7c44}} 
+\index{Circle@{Circle}!setX1@{setX1}}
+\index{setX1@{setX1}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setX1()}{setX1()}}
+{\footnotesize\ttfamily void Circle.\+set\+X1 (\begin{DoxyParamCaption}\item[{int}]{x1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolrzedna jednego punktu 
+\begin{DoxyParams}{Parameters}
+{\em x1} & pierwsza wspolrzedna poczatkowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_addd9576106450ef2e911879883867a03}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_aa1516b33dae1f90b8bb81e0e8a05da63}\label{classCircle_aa1516b33dae1f90b8bb81e0e8a05da63}} 
+\index{Circle@{Circle}!setX2@{setX2}}
+\index{setX2@{setX2}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setX2()}{setX2()}}
+{\footnotesize\ttfamily void Circle.\+set\+X2 (\begin{DoxyParamCaption}\item[{int}]{x2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolrzedna drugiego punktu 
+\begin{DoxyParams}{Parameters}
+{\em x2} & pierwsza wspolrzedna koncowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_af64d5da7b99d6ed603deb4e544399a82}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_af0c12a841c3fbe8525b87cb2b94a1cf1}\label{classCircle_af0c12a841c3fbe8525b87cb2b94a1cf1}} 
+\index{Circle@{Circle}!setY1@{setY1}}
+\index{setY1@{setY1}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setY1()}{setY1()}}
+{\footnotesize\ttfamily void Circle.\+set\+Y1 (\begin{DoxyParamCaption}\item[{int}]{y1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolrzedna jednego punktu 
+\begin{DoxyParams}{Parameters}
+{\em y1} & druga wspolrzedna poczatkowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a928df2f2439b2b9802b6419ff28b4aeb}{Shape}}.
+
+\mbox{\Hypertarget{classCircle_acb9c07dc079774289c4396f39252e2ee}\label{classCircle_acb9c07dc079774289c4396f39252e2ee}} 
+\index{Circle@{Circle}!setY2@{setY2}}
+\index{setY2@{setY2}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{setY2()}{setY2()}}
+{\footnotesize\ttfamily void Circle.\+set\+Y2 (\begin{DoxyParamCaption}\item[{int}]{y2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolrzedna drugiego punktu 
+\begin{DoxyParams}{Parameters}
+{\em y2} & druga wspolrzedna koncowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_aa3045c457249facb0541c10cfba17dd7}{Shape}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classCircle_ab95f579b67540d2ef309bc8fa01c10e9}\label{classCircle_ab95f579b67540d2ef309bc8fa01c10e9}} 
+\index{Circle@{Circle}!a@{a}}
+\index{a@{a}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{a}{a}}
+{\footnotesize\ttfamily int Circle.\+a\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_afb50aa0e93593882b1cb4dc76ab15814}\label{classCircle_afb50aa0e93593882b1cb4dc76ab15814}} 
+\index{Circle@{Circle}!b@{b}}
+\index{b@{b}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{b}{b}}
+{\footnotesize\ttfamily int Circle.\+b\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_a41aefb7927c6d862c54ed5c4b48cbda5}\label{classCircle_a41aefb7927c6d862c54ed5c4b48cbda5}} 
+\index{Circle@{Circle}!c@{c}}
+\index{c@{c}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{c}{c}}
+{\footnotesize\ttfamily int Circle.\+c\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_ae8acf2e4bccf94ffc18c63aa2fb7360c}\label{classCircle_ae8acf2e4bccf94ffc18c63aa2fb7360c}} 
+\index{Circle@{Circle}!color@{color}}
+\index{color@{color}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily Color Circle.\+color = new Color(0)\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_af1412eef19a1ec9f3369f92d7f6e6b64}\label{classCircle_af1412eef19a1ec9f3369f92d7f6e6b64}} 
+\index{Circle@{Circle}!d@{d}}
+\index{d@{d}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{d}{d}}
+{\footnotesize\ttfamily int Circle.\+d\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_ace534533ac3b9f6b60c2854cb0756592}\label{classCircle_ace534533ac3b9f6b60c2854cb0756592}} 
+\index{Circle@{Circle}!e@{e}}
+\index{e@{e}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{e}{e}}
+{\footnotesize\ttfamily int Circle.\+e\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_ad1bc41f6124ad669eac2abde4014b185}\label{classCircle_ad1bc41f6124ad669eac2abde4014b185}} 
+\index{Circle@{Circle}!x1@{x1}}
+\index{x1@{x1}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{x1}{x1}}
+{\footnotesize\ttfamily int Circle.\+x1\hspace{0.3cm}{\ttfamily [package]}}
+
+Deklaracja punktow lewego gornego i prawego dolnego rogu kola, oraz zmiennych do ktorych przypisywane sa maksymalne i minimalne wartosci tych punktow, promienia i koloru \mbox{\Hypertarget{classCircle_ad30be154c5d9819efc19982455d0df6a}\label{classCircle_ad30be154c5d9819efc19982455d0df6a}} 
+\index{Circle@{Circle}!x2@{x2}}
+\index{x2@{x2}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{x2}{x2}}
+{\footnotesize\ttfamily int Circle.\+x2\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_a0fc0cb7f63bff9ec76685306672f2723}\label{classCircle_a0fc0cb7f63bff9ec76685306672f2723}} 
+\index{Circle@{Circle}!y1@{y1}}
+\index{y1@{y1}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{y1}{y1}}
+{\footnotesize\ttfamily int Circle.\+y1\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classCircle_ac5bd5c5b3b3167abb36f2940854ba25e}\label{classCircle_ac5bd5c5b3b3167abb36f2940854ba25e}} 
+\index{Circle@{Circle}!y2@{y2}}
+\index{y2@{y2}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{y2}{y2}}
+{\footnotesize\ttfamily int Circle.\+y2\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{mainClass_8java}{main\+Class.\+java}}\end{DoxyCompactItemize}

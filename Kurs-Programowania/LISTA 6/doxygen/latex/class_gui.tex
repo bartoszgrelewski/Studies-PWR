@@ -1,0 +1,183 @@
+\hypertarget{class_gui}{}\doxysection{Gui Class Reference}
+\label{class_gui}\index{Gui@{Gui}}
+Inheritance diagram for Gui\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_gui}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_gui_a13611fe78e8ecf9721e65756e72a9a5b}{Gui}} (Buffered\+Reader in, Print\+Writer out)
+\item 
+void \mbox{\hyperlink{class_gui_ac5395e610fb30d6c2b02b6c4a65c66d8}{set\+Integer}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a1500e907012b81fdd15696b6a2630172}{set\+Double}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a514db066d51e465632b0189a70d378a8}{set\+String}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a05e8607258296ffafe72c7013d447750}{search}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a07309f8ff5904226dad6555bb0e4361b}{search\+Ok}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a15d642f680fb9d431735af9589256cfe}{insert}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a87b5191c363a9ce07c4c6aa330155a9c}{insert\+Ok}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a2be4e4cb3a3f2f994c8306c2ba433d5d}{delete}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_ae47547006c38c21c577a7396202b50b6}{delete\+Ok}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_a8ce7a314176bff898dc18e9fdb07f4ce}{write}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{class_gui_afeb1bd5775e9d2df8ccabbdb5888bbf7}{exit}} (Action\+Event e)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa odpowiedzialna za GUI dostaje in oraz out 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_gui_a13611fe78e8ecf9721e65756e72a9a5b}\label{class_gui_a13611fe78e8ecf9721e65756e72a9a5b}} 
+\index{Gui@{Gui}!Gui@{Gui}}
+\index{Gui@{Gui}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{Gui()}{Gui()}}
+{\footnotesize\ttfamily Gui.\+Gui (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{in,  }\item[{Print\+Writer}]{out }\end{DoxyParamCaption})}
+
+konstruktor GUI (okna) 
+\begin{DoxyParams}{Parameters}
+{\em in} & -\/ zmienna, ktora klient \\
+\hline
+{\em out} & -\/ zmienna, ktora dostaje serwer \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gui_a2be4e4cb3a3f2f994c8306c2ba433d5d}\label{class_gui_a2be4e4cb3a3f2f994c8306c2ba433d5d}} 
+\index{Gui@{Gui}!delete@{delete}}
+\index{delete@{delete}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily void Gui.\+delete (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda tworzaca okno w ktorym wpisuje sie wartosc do usuniecia 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_ae47547006c38c21c577a7396202b50b6}\label{class_gui_ae47547006c38c21c577a7396202b50b6}} 
+\index{Gui@{Gui}!deleteOk@{deleteOk}}
+\index{deleteOk@{deleteOk}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{deleteOk()}{deleteOk()}}
+{\footnotesize\ttfamily void Gui.\+delete\+Ok (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda zamykajaca okno i usuwajaca wartosc z drzewa 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_afeb1bd5775e9d2df8ccabbdb5888bbf7}\label{class_gui_afeb1bd5775e9d2df8ccabbdb5888bbf7}} 
+\index{Gui@{Gui}!exit@{exit}}
+\index{exit@{exit}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{exit()}{exit()}}
+{\footnotesize\ttfamily void Gui.\+exit (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda zamykajaca program 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a15d642f680fb9d431735af9589256cfe}\label{class_gui_a15d642f680fb9d431735af9589256cfe}} 
+\index{Gui@{Gui}!insert@{insert}}
+\index{insert@{insert}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily void Gui.\+insert (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda tworzaca okno w ktorym wpisuje sie wartosc do dodawania 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a87b5191c363a9ce07c4c6aa330155a9c}\label{class_gui_a87b5191c363a9ce07c4c6aa330155a9c}} 
+\index{Gui@{Gui}!insertOk@{insertOk}}
+\index{insertOk@{insertOk}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{insertOk()}{insertOk()}}
+{\footnotesize\ttfamily void Gui.\+insert\+Ok (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda przekazujca serwerowi dane z wpisywania kolejnych elementow do drzewa 
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a05e8607258296ffafe72c7013d447750}\label{class_gui_a05e8607258296ffafe72c7013d447750}} 
+\index{Gui@{Gui}!search@{search}}
+\index{search@{search}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily void Gui.\+search (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda tworzaca okno w ktorym wpisuje sie wartosc do szukania 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a07309f8ff5904226dad6555bb0e4361b}\label{class_gui_a07309f8ff5904226dad6555bb0e4361b}} 
+\index{Gui@{Gui}!searchOk@{searchOk}}
+\index{searchOk@{searchOk}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{searchOk()}{searchOk()}}
+{\footnotesize\ttfamily void Gui.\+search\+Ok (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda zamykajaca okno wyszukiwania elementu w drzewie 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a1500e907012b81fdd15696b6a2630172}\label{class_gui_a1500e907012b81fdd15696b6a2630172}} 
+\index{Gui@{Gui}!setDouble@{setDouble}}
+\index{setDouble@{setDouble}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{setDouble()}{setDouble()}}
+{\footnotesize\ttfamily void Gui.\+set\+Double (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda tworzaca drzewo dla opcji DOUBLE 
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ przechwyt akcji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_ac5395e610fb30d6c2b02b6c4a65c66d8}\label{class_gui_ac5395e610fb30d6c2b02b6c4a65c66d8}} 
+\index{Gui@{Gui}!setInteger@{setInteger}}
+\index{setInteger@{setInteger}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{setInteger()}{setInteger()}}
+{\footnotesize\ttfamily void Gui.\+set\+Integer (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda tworzaca drzewo dla opcji INTEGER 
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ przechwyt akcji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a514db066d51e465632b0189a70d378a8}\label{class_gui_a514db066d51e465632b0189a70d378a8}} 
+\index{Gui@{Gui}!setString@{setString}}
+\index{setString@{setString}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{setString()}{setString()}}
+{\footnotesize\ttfamily void Gui.\+set\+String (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda tworzaca drzewo dla opcji STRING 
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ przechwyt akcji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gui_a8ce7a314176bff898dc18e9fdb07f4ce}\label{class_gui_a8ce7a314176bff898dc18e9fdb07f4ce}} 
+\index{Gui@{Gui}!write@{write}}
+\index{write@{write}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void Gui.\+write (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})}
+
+metoda wypsujaca drzewo 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Gui.\+java\end{DoxyCompactItemize}

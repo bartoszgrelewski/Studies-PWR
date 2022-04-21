@@ -1,0 +1,352 @@
+\hypertarget{classTriangle}{}\doxysection{Triangle Class Reference}
+\label{classTriangle}\index{Triangle@{Triangle}}
+
+
+Inheritance diagram for Triangle\+:
+% FIG 0
+
+
+Collaboration diagram for Triangle\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classTriangle_a54604479a1ca67e757079d77ec1d44f6}{contains}} (int x, int y)
+\item 
+void \mbox{\hyperlink{classTriangle_a5bfbe7a1d3a0f8b78e507dd551869411}{Draw}} (Graphics g)
+\item 
+Color \mbox{\hyperlink{classTriangle_a482b51f3f22de2f283c8d73eec2270ad}{get\+Color}} ()
+\item 
+int \mbox{\hyperlink{classTriangle_ac191074824f97545af3903db5a6fd0c1}{get\+X1}} ()
+\item 
+int \mbox{\hyperlink{classTriangle_ab3b6bccc932fad99e32dae8973203f1e}{get\+X2}} ()
+\item 
+int \mbox{\hyperlink{classTriangle_a814a3ef353b9bfcb9e461288af89d898}{get\+Y1}} ()
+\item 
+int \mbox{\hyperlink{classTriangle_ae846288d5fc0bfd938812ac668d169d4}{get\+Y2}} ()
+\item 
+void \mbox{\hyperlink{classTriangle_a44ca9d8ce0388247e520582b1a4bbedc}{move}} (int x, int y)
+\item 
+String \mbox{\hyperlink{classTriangle_a10f8f00f5d9d45075d53079f46be408a}{nazwa}} ()
+\item 
+void \mbox{\hyperlink{classTriangle_a3823808b1c248e45aa65c5bd65b9a379}{resize}} (int amount)
+\item 
+void \mbox{\hyperlink{classTriangle_ab8995f3e51f8c3e5c639a348c93ff17b}{set\+Color}} (Color \mbox{\hyperlink{classTriangle_ad605c4e24d28bf4e1c19e03bc78798d6}{color}})
+\item 
+void \mbox{\hyperlink{classTriangle_ae6ba97bd15cbd515f68118fe6819eda5}{set\+X1}} (int \mbox{\hyperlink{classTriangle_aed0ed0b992472c4e56b9237fe1870970}{x1}})
+\item 
+void \mbox{\hyperlink{classTriangle_a7a300faa8f14f6eb699b37bf4e3d61b7}{set\+X2}} (int \mbox{\hyperlink{classTriangle_ad0b49e7f6fbafc32a4076178bcf98bf7}{x2}})
+\item 
+void \mbox{\hyperlink{classTriangle_a2692bc6ce4a6e741b30e899bf2bf8611}{set\+Y1}} (int \mbox{\hyperlink{classTriangle_ad65b679eaeb5f6648bc1933600c2574e}{y1}})
+\item 
+void \mbox{\hyperlink{classTriangle_ae1320d59a3da61d6aea28e0d274e5622}{set\+Y2}} (int \mbox{\hyperlink{classTriangle_a4f1aa9d70426c052fd89bcd088ef0664}{y2}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classTriangle_abd8f2c50e36179ac134438f98aa0bb01}{a}}
+\item 
+int \mbox{\hyperlink{classTriangle_af1d23a699d3a7073ad3c4c6e9390912b}{b}}
+\item 
+int \mbox{\hyperlink{classTriangle_ae8bd011d0494c72244c7863143d073c1}{c}}
+\item 
+Color \mbox{\hyperlink{classTriangle_ad605c4e24d28bf4e1c19e03bc78798d6}{color}} = new Color(0)
+\item 
+int \mbox{\hyperlink{classTriangle_a38e72ed5d656dd41f3f1be8ad1686aaa}{d}}
+\item 
+int \mbox{\hyperlink{classTriangle_aed0ed0b992472c4e56b9237fe1870970}{x1}}
+\item 
+int \mbox{\hyperlink{classTriangle_ad0b49e7f6fbafc32a4076178bcf98bf7}{x2}}
+\item 
+int \mbox{\hyperlink{classTriangle_ad65b679eaeb5f6648bc1933600c2574e}{y1}}
+\item 
+int \mbox{\hyperlink{classTriangle_a4f1aa9d70426c052fd89bcd088ef0664}{y2}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentujaca trojkat 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTriangle_a54604479a1ca67e757079d77ec1d44f6}\label{classTriangle_a54604479a1ca67e757079d77ec1d44f6}} 
+\index{Triangle@{Triangle}!contains@{contains}}
+\index{contains@{contains}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean Triangle.\+contains (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda sprawdzajaca czy najechano mysza na figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & polozenie myszki w poziomie \\
+\hline
+{\em y} & polozenie myszki w pionie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca czy nakierowano na figure 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a23fadce369cd81212c72543434e61c9f}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a5bfbe7a1d3a0f8b78e507dd551869411}\label{classTriangle_a5bfbe7a1d3a0f8b78e507dd551869411}} 
+\index{Triangle@{Triangle}!Draw@{Draw}}
+\index{Draw@{Draw}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Triangle.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda wyznaczajaca maksymalne i minimalne wartosci punktow, tworzaca tablice wspolrzednych wierzcholkow trojkata oraz rysujaca trojkat 
+\begin{DoxyParams}{Parameters}
+{\em g} & grafika \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a8a84f04b0a9dc08eb969edcf1479b054}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a482b51f3f22de2f283c8d73eec2270ad}\label{classTriangle_a482b51f3f22de2f283c8d73eec2270ad}} 
+\index{Triangle@{Triangle}!getColor@{getColor}}
+\index{getColor@{getColor}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily Color Triangle.\+get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca kolor dla figury \begin{DoxyReturn}{Returns}
+color kolor 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a4271dba03c30547a4e0c87418cc07bf8}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_ac191074824f97545af3903db5a6fd0c1}\label{classTriangle_ac191074824f97545af3903db5a6fd0c1}} 
+\index{Triangle@{Triangle}!getX1@{getX1}}
+\index{getX1@{getX1}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{getX1()}{getX1()}}
+{\footnotesize\ttfamily int Triangle.\+get\+X1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolredna poczatkowego punktu \begin{DoxyReturn}{Returns}
+x1 pierwsza wspolrzedna poczatkowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a572e722f9ea159862c5b470be1073f89}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_ab3b6bccc932fad99e32dae8973203f1e}\label{classTriangle_ab3b6bccc932fad99e32dae8973203f1e}} 
+\index{Triangle@{Triangle}!getX2@{getX2}}
+\index{getX2@{getX2}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{getX2()}{getX2()}}
+{\footnotesize\ttfamily int Triangle.\+get\+X2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolredna koncowego punktu \begin{DoxyReturn}{Returns}
+x2 pierwsza wspolrzedna koncowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_af79132f2d137c6e227af4cfaad89dc6d}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a814a3ef353b9bfcb9e461288af89d898}\label{classTriangle_a814a3ef353b9bfcb9e461288af89d898}} 
+\index{Triangle@{Triangle}!getY1@{getY1}}
+\index{getY1@{getY1}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{getY1()}{getY1()}}
+{\footnotesize\ttfamily int Triangle.\+get\+Y1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolredna poczatkowego punktu \begin{DoxyReturn}{Returns}
+y1 druga wspolrzedna poczatkowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_ae7b221dfce9904ca7f2db652a78ed075}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_ae846288d5fc0bfd938812ac668d169d4}\label{classTriangle_ae846288d5fc0bfd938812ac668d169d4}} 
+\index{Triangle@{Triangle}!getY2@{getY2}}
+\index{getY2@{getY2}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{getY2()}{getY2()}}
+{\footnotesize\ttfamily int Triangle.\+get\+Y2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolredna koncowego punktu \begin{DoxyReturn}{Returns}
+y2 druga wspolrzedna koncowego punktu 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_ac9fa33bb3b5daa87edf2c15d6026df6c}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a44ca9d8ce0388247e520582b1a4bbedc}\label{classTriangle_a44ca9d8ce0388247e520582b1a4bbedc}} 
+\index{Triangle@{Triangle}!move@{move}}
+\index{move@{move}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Triangle.\+move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda przesuwajaca figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & wartosc o ile przesunieto myszka w poziomie \\
+\hline
+{\em y} & wartosc o ile przesunieto myszka w pionie \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_aaeb8f4fbf37df5490465e5ea7f2a194f}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a10f8f00f5d9d45075d53079f46be408a}\label{classTriangle_a10f8f00f5d9d45075d53079f46be408a}} 
+\index{Triangle@{Triangle}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{nazwa()}{nazwa()}}
+{\footnotesize\ttfamily String Triangle.\+nazwa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zwracajaca nazwe figury \begin{DoxyReturn}{Returns}
+nazwa trojkat 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a6fc68149373bb18b0fda5fa8ce8e8570}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a3823808b1c248e45aa65c5bd65b9a379}\label{classTriangle_a3823808b1c248e45aa65c5bd65b9a379}} 
+\index{Triangle@{Triangle}!resize@{resize}}
+\index{resize@{resize}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily void Triangle.\+resize (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zmieniajaca wielkosc figury 
+\begin{DoxyParams}{Parameters}
+{\em amount} & wartosc o ile przekrecono scrolla \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_aa5d3868a9a79c4525f8b28e7f21925df}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_ab8995f3e51f8c3e5c639a348c93ff17b}\label{classTriangle_ab8995f3e51f8c3e5c639a348c93ff17b}} 
+\index{Triangle@{Triangle}!setColor@{setColor}}
+\index{setColor@{setColor}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Triangle.\+set\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca kolor dla figury 
+\begin{DoxyParams}{Parameters}
+{\em color} & kolor \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_ab8601803653ba8cce7e129230186f4e6}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_ae6ba97bd15cbd515f68118fe6819eda5}\label{classTriangle_ae6ba97bd15cbd515f68118fe6819eda5}} 
+\index{Triangle@{Triangle}!setX1@{setX1}}
+\index{setX1@{setX1}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{setX1()}{setX1()}}
+{\footnotesize\ttfamily void Triangle.\+set\+X1 (\begin{DoxyParamCaption}\item[{int}]{x1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolrzedna jednego punktu 
+\begin{DoxyParams}{Parameters}
+{\em x1} & pierwsza wspolrzedna poczatkowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_addd9576106450ef2e911879883867a03}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a7a300faa8f14f6eb699b37bf4e3d61b7}\label{classTriangle_a7a300faa8f14f6eb699b37bf4e3d61b7}} 
+\index{Triangle@{Triangle}!setX2@{setX2}}
+\index{setX2@{setX2}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{setX2()}{setX2()}}
+{\footnotesize\ttfamily void Triangle.\+set\+X2 (\begin{DoxyParamCaption}\item[{int}]{x2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca pierwsza wspolrzedna drugiego punktu 
+\begin{DoxyParams}{Parameters}
+{\em x2} & pierwsza wspolrzedna koncowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_af64d5da7b99d6ed603deb4e544399a82}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_a2692bc6ce4a6e741b30e899bf2bf8611}\label{classTriangle_a2692bc6ce4a6e741b30e899bf2bf8611}} 
+\index{Triangle@{Triangle}!setY1@{setY1}}
+\index{setY1@{setY1}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{setY1()}{setY1()}}
+{\footnotesize\ttfamily void Triangle.\+set\+Y1 (\begin{DoxyParamCaption}\item[{int}]{y1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolrzedna jednego punktu 
+\begin{DoxyParams}{Parameters}
+{\em y1} & druga wspolrzedna poczatkowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_a928df2f2439b2b9802b6419ff28b4aeb}{Shape}}.
+
+\mbox{\Hypertarget{classTriangle_ae1320d59a3da61d6aea28e0d274e5622}\label{classTriangle_ae1320d59a3da61d6aea28e0d274e5622}} 
+\index{Triangle@{Triangle}!setY2@{setY2}}
+\index{setY2@{setY2}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{setY2()}{setY2()}}
+{\footnotesize\ttfamily void Triangle.\+set\+Y2 (\begin{DoxyParamCaption}\item[{int}]{y2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda ustawiajaca druga wspolrzedna drugiego punktu 
+\begin{DoxyParams}{Parameters}
+{\em y2} & druga wspolrzedna koncowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceShape_aa3045c457249facb0541c10cfba17dd7}{Shape}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classTriangle_abd8f2c50e36179ac134438f98aa0bb01}\label{classTriangle_abd8f2c50e36179ac134438f98aa0bb01}} 
+\index{Triangle@{Triangle}!a@{a}}
+\index{a@{a}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{a}{a}}
+{\footnotesize\ttfamily int Triangle.\+a\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_af1d23a699d3a7073ad3c4c6e9390912b}\label{classTriangle_af1d23a699d3a7073ad3c4c6e9390912b}} 
+\index{Triangle@{Triangle}!b@{b}}
+\index{b@{b}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{b}{b}}
+{\footnotesize\ttfamily int Triangle.\+b\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_ae8bd011d0494c72244c7863143d073c1}\label{classTriangle_ae8bd011d0494c72244c7863143d073c1}} 
+\index{Triangle@{Triangle}!c@{c}}
+\index{c@{c}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{c}{c}}
+{\footnotesize\ttfamily int Triangle.\+c\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_ad605c4e24d28bf4e1c19e03bc78798d6}\label{classTriangle_ad605c4e24d28bf4e1c19e03bc78798d6}} 
+\index{Triangle@{Triangle}!color@{color}}
+\index{color@{color}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily Color Triangle.\+color = new Color(0)\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_a38e72ed5d656dd41f3f1be8ad1686aaa}\label{classTriangle_a38e72ed5d656dd41f3f1be8ad1686aaa}} 
+\index{Triangle@{Triangle}!d@{d}}
+\index{d@{d}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{d}{d}}
+{\footnotesize\ttfamily int Triangle.\+d\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_aed0ed0b992472c4e56b9237fe1870970}\label{classTriangle_aed0ed0b992472c4e56b9237fe1870970}} 
+\index{Triangle@{Triangle}!x1@{x1}}
+\index{x1@{x1}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{x1}{x1}}
+{\footnotesize\ttfamily int Triangle.\+x1\hspace{0.3cm}{\ttfamily [package]}}
+
+Deklaracja punktow lewego gornego i prawego dolnego rogu prostokata, oraz zmiennych do ktorych przypisywane sa maksymalne i minimalne wartosci tych punktow oraz koloru \mbox{\Hypertarget{classTriangle_ad0b49e7f6fbafc32a4076178bcf98bf7}\label{classTriangle_ad0b49e7f6fbafc32a4076178bcf98bf7}} 
+\index{Triangle@{Triangle}!x2@{x2}}
+\index{x2@{x2}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{x2}{x2}}
+{\footnotesize\ttfamily int Triangle.\+x2\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_ad65b679eaeb5f6648bc1933600c2574e}\label{classTriangle_ad65b679eaeb5f6648bc1933600c2574e}} 
+\index{Triangle@{Triangle}!y1@{y1}}
+\index{y1@{y1}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{y1}{y1}}
+{\footnotesize\ttfamily int Triangle.\+y1\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classTriangle_a4f1aa9d70426c052fd89bcd088ef0664}\label{classTriangle_a4f1aa9d70426c052fd89bcd088ef0664}} 
+\index{Triangle@{Triangle}!y2@{y2}}
+\index{y2@{y2}!Triangle@{Triangle}}
+\doxysubsubsection{\texorpdfstring{y2}{y2}}
+{\footnotesize\ttfamily int Triangle.\+y2\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{mainClass_8java}{main\+Class.\+java}}\end{DoxyCompactItemize}

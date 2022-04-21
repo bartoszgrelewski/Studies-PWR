@@ -1,0 +1,211 @@
+\hypertarget{classSurface}{}\doxysection{Surface Class Reference}
+\label{classSurface}\index{Surface@{Surface}}
+
+
+Inheritance diagram for Surface\+:
+% FIG 0
+
+
+Collaboration diagram for Surface\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classSurface_1_1MousePopupListener}{Mouse\+Popup\+Listener}}
+\item 
+class \mbox{\hyperlink{classSurface_1_1MovingAdapter}{Moving\+Adapter}}
+\item 
+class \mbox{\hyperlink{classSurface_1_1ScaleHandler}{Scale\+Handler}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSurface_a5368b25a8e8f41ecb00b960c940003e2}{Surface}} ()
+\item 
+void \mbox{\hyperlink{classSurface_adcda395ddcb459d3e5d0815c7eca902d}{paint\+Component}} (Graphics g)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classSurface_abdb9469c4ad2bcd1798199e0f750866f}{choice}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+JText\+Area \mbox{\hyperlink{classSurface_a976bdea14ce03acd868b6030c1d8d575}{color2}}
+\item 
+JText\+Area \mbox{\hyperlink{classSurface_a2a13bc076c4ce3ee48f2119b42b44884}{color3}}
+\item 
+\mbox{\hyperlink{interfaceShape}{Shape}} \mbox{\hyperlink{classSurface_afe5de5496d994679636f0b559b4b06ce}{current\+Shape}}
+\item 
+Button \mbox{\hyperlink{classSurface_abb95baa721f85bed26075536fa81fcf4}{see\+Color}}
+\item 
+\mbox{\hyperlink{interfaceShape}{Shape}} \mbox{\hyperlink{classSurface_a546c3e463345823963ef770097188cfc}{shape}}
+\item 
+int \mbox{\hyperlink{classSurface_a86bc74bc71afd91684ab713200104cae}{x}}
+\item 
+int \mbox{\hyperlink{classSurface_a7b4c1fe6f868e315d645abe077620156}{y}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Array\+List$<$ \mbox{\hyperlink{interfaceShape}{Shape}} $>$ \mbox{\hyperlink{classSurface_ad98863e4cd79134705a9b6355e8565a0}{shapes}} = new Array\+List$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classSurface_aad618c4838914d2b5bd0acf937afe44b}{color\+Chooser}} (Action\+Event e)
+\item 
+void \mbox{\hyperlink{classSurface_a82216c90ac2e4f2c99fea4eba7625197}{popup}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Color \mbox{\hyperlink{classSurface_aee88352d2f2f50a55d075436027ad068}{color}}
+\item 
+JText\+Area \mbox{\hyperlink{classSurface_aa4ce3675671a429cf3c10ddb5225477d}{color1}}
+\item 
+JDialog \mbox{\hyperlink{classSurface_a487cc7619d98fdf7772d2b49a6263bb5}{color\+Chooser}}
+\item 
+JButton \mbox{\hyperlink{classSurface_a348e4ca874c986884aee151555adbccd}{ok}} = new JButton(\char`\"{}Ok\char`\"{})
+\item 
+JPopup\+Menu \mbox{\hyperlink{classSurface_af7af1997b5ac0b228f7f651eba3aa129}{popup\+Menu}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa przestrzeni do rysowania \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceShape}{Shape}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSurface_a5368b25a8e8f41ecb00b960c940003e2}\label{classSurface_a5368b25a8e8f41ecb00b960c940003e2}} 
+\index{Surface@{Surface}!Surface@{Surface}}
+\index{Surface@{Surface}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{Surface()}{Surface()}}
+{\footnotesize\ttfamily Surface.\+Surface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Konstruktor klasy przestrzeni 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSurface_aad618c4838914d2b5bd0acf937afe44b}\label{classSurface_aad618c4838914d2b5bd0acf937afe44b}} 
+\index{Surface@{Surface}!colorChooser@{colorChooser}}
+\index{colorChooser@{colorChooser}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{colorChooser()}{colorChooser()}}
+{\footnotesize\ttfamily void Surface.\+color\+Chooser (\begin{DoxyParamCaption}\item[{Action\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Metoda obslugujaca przycisk w popup menu 
+\begin{DoxyParams}{Parameters}
+{\em e} & przechwyt myszki \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSurface_adcda395ddcb459d3e5d0815c7eca902d}\label{classSurface_adcda395ddcb459d3e5d0815c7eca902d}} 
+\index{Surface@{Surface}!paintComponent@{paintComponent}}
+\index{paintComponent@{paintComponent}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{paintComponent()}{paintComponent()}}
+{\footnotesize\ttfamily void Surface.\+paint\+Component (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda rysujaca figury 
+\begin{DoxyParams}{Parameters}
+{\em g} & grafika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSurface_a82216c90ac2e4f2c99fea4eba7625197}\label{classSurface_a82216c90ac2e4f2c99fea4eba7625197}} 
+\index{Surface@{Surface}!popup@{popup}}
+\index{popup@{popup}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{popup()}{popup()}}
+{\footnotesize\ttfamily void Surface.\+popup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Funkcja dodajaca popup menu 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classSurface_abdb9469c4ad2bcd1798199e0f750866f}\label{classSurface_abdb9469c4ad2bcd1798199e0f750866f}} 
+\index{Surface@{Surface}!choice@{choice}}
+\index{choice@{choice}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{choice}{choice}}
+{\footnotesize\ttfamily int Surface.\+choice}
+
+Deklaracja\+: zmiennej odpowiadajacej za wybor, listy figur, dodawanej figury, popup menu, przycisku do zmiany koloru, okna dialogowego ze zmiana koloru, przycisku do potwierdzenia dodania koloru, miejsc na tekst w oknie z ustawieniem kolorow oraz ustawianego koloru \mbox{\Hypertarget{classSurface_aee88352d2f2f50a55d075436027ad068}\label{classSurface_aee88352d2f2f50a55d075436027ad068}} 
+\index{Surface@{Surface}!color@{color}}
+\index{color@{color}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily Color Surface.\+color\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSurface_aa4ce3675671a429cf3c10ddb5225477d}\label{classSurface_aa4ce3675671a429cf3c10ddb5225477d}} 
+\index{Surface@{Surface}!color1@{color1}}
+\index{color1@{color1}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{color1}{color1}}
+{\footnotesize\ttfamily JText\+Area Surface.\+color1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSurface_a976bdea14ce03acd868b6030c1d8d575}\label{classSurface_a976bdea14ce03acd868b6030c1d8d575}} 
+\index{Surface@{Surface}!color2@{color2}}
+\index{color2@{color2}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{color2}{color2}}
+{\footnotesize\ttfamily JText\+Area Surface.\+color2\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_a2a13bc076c4ce3ee48f2119b42b44884}\label{classSurface_a2a13bc076c4ce3ee48f2119b42b44884}} 
+\index{Surface@{Surface}!color3@{color3}}
+\index{color3@{color3}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{color3}{color3}}
+{\footnotesize\ttfamily JText\+Area Surface.\+color3\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_a487cc7619d98fdf7772d2b49a6263bb5}\label{classSurface_a487cc7619d98fdf7772d2b49a6263bb5}} 
+\index{Surface@{Surface}!colorChooser@{colorChooser}}
+\index{colorChooser@{colorChooser}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{colorChooser}{colorChooser}}
+{\footnotesize\ttfamily JDialog Surface.\+color\+Chooser\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSurface_afe5de5496d994679636f0b559b4b06ce}\label{classSurface_afe5de5496d994679636f0b559b4b06ce}} 
+\index{Surface@{Surface}!currentShape@{currentShape}}
+\index{currentShape@{currentShape}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{currentShape}{currentShape}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceShape}{Shape}} Surface.\+current\+Shape\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_a348e4ca874c986884aee151555adbccd}\label{classSurface_a348e4ca874c986884aee151555adbccd}} 
+\index{Surface@{Surface}!ok@{ok}}
+\index{ok@{ok}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{ok}{ok}}
+{\footnotesize\ttfamily JButton Surface.\+ok = new JButton(\char`\"{}Ok\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSurface_af7af1997b5ac0b228f7f651eba3aa129}\label{classSurface_af7af1997b5ac0b228f7f651eba3aa129}} 
+\index{Surface@{Surface}!popupMenu@{popupMenu}}
+\index{popupMenu@{popupMenu}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{popupMenu}{popupMenu}}
+{\footnotesize\ttfamily JPopup\+Menu Surface.\+popup\+Menu\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSurface_abb95baa721f85bed26075536fa81fcf4}\label{classSurface_abb95baa721f85bed26075536fa81fcf4}} 
+\index{Surface@{Surface}!seeColor@{seeColor}}
+\index{seeColor@{seeColor}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{seeColor}{seeColor}}
+{\footnotesize\ttfamily Button Surface.\+see\+Color\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_a546c3e463345823963ef770097188cfc}\label{classSurface_a546c3e463345823963ef770097188cfc}} 
+\index{Surface@{Surface}!shape@{shape}}
+\index{shape@{shape}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{shape}{shape}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceShape}{Shape}} Surface.\+shape\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_ad98863e4cd79134705a9b6355e8565a0}\label{classSurface_ad98863e4cd79134705a9b6355e8565a0}} 
+\index{Surface@{Surface}!shapes@{shapes}}
+\index{shapes@{shapes}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{shapes}{shapes}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{interfaceShape}{Shape}}$>$ Surface.\+shapes = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_a86bc74bc71afd91684ab713200104cae}\label{classSurface_a86bc74bc71afd91684ab713200104cae}} 
+\index{Surface@{Surface}!x@{x}}
+\index{x@{x}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int Surface.\+x\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classSurface_a7b4c1fe6f868e315d645abe077620156}\label{classSurface_a7b4c1fe6f868e315d645abe077620156}} 
+\index{Surface@{Surface}!y@{y}}
+\index{y@{y}!Surface@{Surface}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int Surface.\+y\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{mainClass_8java}{main\+Class.\+java}}\end{DoxyCompactItemize}

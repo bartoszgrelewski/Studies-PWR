@@ -1,0 +1,17 @@
+digraph "Frame"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Frame\n|~ br\l~ clearButton\l~ currentLine\l~ exitItem\l~ file\l~ fileChooser\l~ infoItem\l~ infoMenu\l~ instructionItem\l~ loadItem\land 6 more...\l- circleItem\l- dialog\l- mainMenu\l- okButton\l- shapeMenu\l|+ Frame()\l+ clear()\l+ exit()\l+ info()\l+ instrukcja()\l+ load()\l+ ok()\l+ okrag()\l+ prostokat()\l+ save()\l+ trojkat()\l- menu()\l- surface()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{JFrame\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -surface" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{Surface\n|+ choice\l~ color2\l~ color3\l~ seeColor\l~ x\l~ y\l- color\l- color1\l- colorChooser\l- ok\l- popupMenu\l|+ Surface()\l+ paintComponent()\l- colorChooser()\l- popup()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSurface.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" ~shapes" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{ArrayList\< Shape \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" ~currentShape\n~shape" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{Shape\n||+ contains()\l+ Draw()\l+ getColor()\l+ getX1()\l+ getX2()\l+ getY1()\l+ getY2()\l+ move()\l+ nazwa()\l+ resize()\l+ setColor()\l+ setX1()\l+ setX2()\l+ setY1()\l+ setY2()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceShape.html",tooltip=" "];
+}

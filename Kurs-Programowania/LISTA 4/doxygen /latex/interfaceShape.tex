@@ -1,0 +1,274 @@
+\hypertarget{interfaceShape}{}\doxysection{Shape Interface Reference}
+\label{interfaceShape}\index{Shape@{Shape}}
+
+
+Inheritance diagram for Shape\+:
+% FIG 0
+
+
+Collaboration diagram for Shape\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{interfaceShape_a23fadce369cd81212c72543434e61c9f}{contains}} (int x, int y)
+\item 
+void \mbox{\hyperlink{interfaceShape_a8a84f04b0a9dc08eb969edcf1479b054}{Draw}} (Graphics g)
+\item 
+Color \mbox{\hyperlink{interfaceShape_a4271dba03c30547a4e0c87418cc07bf8}{get\+Color}} ()
+\item 
+int \mbox{\hyperlink{interfaceShape_a572e722f9ea159862c5b470be1073f89}{get\+X1}} ()
+\item 
+int \mbox{\hyperlink{interfaceShape_af79132f2d137c6e227af4cfaad89dc6d}{get\+X2}} ()
+\item 
+int \mbox{\hyperlink{interfaceShape_ae7b221dfce9904ca7f2db652a78ed075}{get\+Y1}} ()
+\item 
+int \mbox{\hyperlink{interfaceShape_ac9fa33bb3b5daa87edf2c15d6026df6c}{get\+Y2}} ()
+\item 
+void \mbox{\hyperlink{interfaceShape_aaeb8f4fbf37df5490465e5ea7f2a194f}{move}} (int x, int y)
+\item 
+String \mbox{\hyperlink{interfaceShape_a6fc68149373bb18b0fda5fa8ce8e8570}{nazwa}} ()
+\item 
+void \mbox{\hyperlink{interfaceShape_aa5d3868a9a79c4525f8b28e7f21925df}{resize}} (int amount)
+\item 
+void \mbox{\hyperlink{interfaceShape_ab8601803653ba8cce7e129230186f4e6}{set\+Color}} (Color color)
+\item 
+void \mbox{\hyperlink{interfaceShape_addd9576106450ef2e911879883867a03}{set\+X1}} (int x1)
+\item 
+void \mbox{\hyperlink{interfaceShape_af64d5da7b99d6ed603deb4e544399a82}{set\+X2}} (int x2)
+\item 
+void \mbox{\hyperlink{interfaceShape_a928df2f2439b2b9802b6419ff28b4aeb}{set\+Y1}} (int y1)
+\item 
+void \mbox{\hyperlink{interfaceShape_aa3045c457249facb0541c10cfba17dd7}{set\+Y2}} (int y2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interfejs dla figury 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceShape_a23fadce369cd81212c72543434e61c9f}\label{interfaceShape_a23fadce369cd81212c72543434e61c9f}} 
+\index{Shape@{Shape}!contains@{contains}}
+\index{contains@{contains}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean Shape.\+contains (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Metoda sprawdzajaca czy nakierowano na figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & polozenie myszki w poziomie \\
+\hline
+{\em y} & polozenie myszki w pionie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca czy nakierowano na figure 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a54604479a1ca67e757079d77ec1d44f6}{Triangle}}, \mbox{\hyperlink{classRectangle_af430e620c7f396b8d25b32f9499dc013}{Rectangle}}, and \mbox{\hyperlink{classCircle_ae1fd34b8fc56dcfae9d95cb30a422666}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_a8a84f04b0a9dc08eb969edcf1479b054}\label{interfaceShape_a8a84f04b0a9dc08eb969edcf1479b054}} 
+\index{Shape@{Shape}!Draw@{Draw}}
+\index{Draw@{Draw}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Shape.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+Metoda rysujaca fugure 
+\begin{DoxyParams}{Parameters}
+{\em g} & grafika \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a5bfbe7a1d3a0f8b78e507dd551869411}{Triangle}}, \mbox{\hyperlink{classRectangle_a93b87e83c8cdb106d03ff2791007abb6}{Rectangle}}, and \mbox{\hyperlink{classCircle_a7b568ffb333fee7f2a2ece71b0f42300}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_a4271dba03c30547a4e0c87418cc07bf8}\label{interfaceShape_a4271dba03c30547a4e0c87418cc07bf8}} 
+\index{Shape@{Shape}!getColor@{getColor}}
+\index{getColor@{getColor}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily Color Shape.\+get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zmieniajaca kolor figury \begin{DoxyReturn}{Returns}
+color kolor 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a482b51f3f22de2f283c8d73eec2270ad}{Triangle}}, \mbox{\hyperlink{classRectangle_a5650f0ccc8839895207c2ca88802414e}{Rectangle}}, and \mbox{\hyperlink{classCircle_aeb9cfb56505a2598319db9565e27dde7}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_a572e722f9ea159862c5b470be1073f89}\label{interfaceShape_a572e722f9ea159862c5b470be1073f89}} 
+\index{Shape@{Shape}!getX1@{getX1}}
+\index{getX1@{getX1}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{getX1()}{getX1()}}
+{\footnotesize\ttfamily int Shape.\+get\+X1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca pierwsza wspolredna poczatkowego punktu \begin{DoxyReturn}{Returns}
+x1 pierwsza wspolrzedna poczatkowego punktu 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_ac191074824f97545af3903db5a6fd0c1}{Triangle}}, \mbox{\hyperlink{classRectangle_aefc0535c6b59777913bf29454eec91bf}{Rectangle}}, and \mbox{\hyperlink{classCircle_a77149d57baa92ba577af87c9e630afc7}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_af79132f2d137c6e227af4cfaad89dc6d}\label{interfaceShape_af79132f2d137c6e227af4cfaad89dc6d}} 
+\index{Shape@{Shape}!getX2@{getX2}}
+\index{getX2@{getX2}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{getX2()}{getX2()}}
+{\footnotesize\ttfamily int Shape.\+get\+X2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca pierwsza wspolredna koncowego punktu \begin{DoxyReturn}{Returns}
+x2 pierwsza wspolrzedna koncowego punktu 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_ab3b6bccc932fad99e32dae8973203f1e}{Triangle}}, \mbox{\hyperlink{classRectangle_a7a2665e84c8a2deddda55922cdc83db4}{Rectangle}}, and \mbox{\hyperlink{classCircle_afe00f18cbb3f89bd5dba5c0bd9d99adb}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_ae7b221dfce9904ca7f2db652a78ed075}\label{interfaceShape_ae7b221dfce9904ca7f2db652a78ed075}} 
+\index{Shape@{Shape}!getY1@{getY1}}
+\index{getY1@{getY1}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{getY1()}{getY1()}}
+{\footnotesize\ttfamily int Shape.\+get\+Y1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca druga wspolredna poczatkowego punktu \begin{DoxyReturn}{Returns}
+y1 druga wspolrzedna poczatkowego punktu 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a814a3ef353b9bfcb9e461288af89d898}{Triangle}}, \mbox{\hyperlink{classRectangle_ad2bf1a50e315ba179880defb2aaf8531}{Rectangle}}, and \mbox{\hyperlink{classCircle_a2d6c1431fa778827f3287fcff115faad}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_ac9fa33bb3b5daa87edf2c15d6026df6c}\label{interfaceShape_ac9fa33bb3b5daa87edf2c15d6026df6c}} 
+\index{Shape@{Shape}!getY2@{getY2}}
+\index{getY2@{getY2}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{getY2()}{getY2()}}
+{\footnotesize\ttfamily int Shape.\+get\+Y2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca druga wspolredna koncowego punktu \begin{DoxyReturn}{Returns}
+y2 druga wspolrzedna koncowego punktu 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_ae846288d5fc0bfd938812ac668d169d4}{Triangle}}, \mbox{\hyperlink{classRectangle_a79adb2b8d45e634cba80e4bf325ebd54}{Rectangle}}, and \mbox{\hyperlink{classCircle_ad2d555d149082080d7a1f9e5c6ea7cbe}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_aaeb8f4fbf37df5490465e5ea7f2a194f}\label{interfaceShape_aaeb8f4fbf37df5490465e5ea7f2a194f}} 
+\index{Shape@{Shape}!move@{move}}
+\index{move@{move}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Shape.\+move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Metoda przesuwajaca figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & wartosc o ile przesunieto myszka w poziomie \\
+\hline
+{\em y} & wartosc o ile przesunieto myszka w pionie \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a44ca9d8ce0388247e520582b1a4bbedc}{Triangle}}, \mbox{\hyperlink{classRectangle_a904c5bb8c2a6e8f4a9bcc1977b0cd48b}{Rectangle}}, and \mbox{\hyperlink{classCircle_af25941e0d57cfd8cf4828d4c674baf04}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_a6fc68149373bb18b0fda5fa8ce8e8570}\label{interfaceShape_a6fc68149373bb18b0fda5fa8ce8e8570}} 
+\index{Shape@{Shape}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{nazwa()}{nazwa()}}
+{\footnotesize\ttfamily String Shape.\+nazwa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca nazwe figury \begin{DoxyReturn}{Returns}
+nazwa nazwa figury 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a10f8f00f5d9d45075d53079f46be408a}{Triangle}}, \mbox{\hyperlink{classRectangle_aeb96e53682126da619f1edc47917229d}{Rectangle}}, and \mbox{\hyperlink{classCircle_ad39bf40411b26d34789a512b4eb357eb}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_aa5d3868a9a79c4525f8b28e7f21925df}\label{interfaceShape_aa5d3868a9a79c4525f8b28e7f21925df}} 
+\index{Shape@{Shape}!resize@{resize}}
+\index{resize@{resize}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily void Shape.\+resize (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+Metoda zmieniajaca wielkosc figury 
+\begin{DoxyParams}{Parameters}
+{\em amount} & wartosc o ile przekrecono scrolla \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a3823808b1c248e45aa65c5bd65b9a379}{Triangle}}, \mbox{\hyperlink{classRectangle_a888e0fd2838ef078a395ef687097a84b}{Rectangle}}, and \mbox{\hyperlink{classCircle_abc5b33fcde20022b65011865c09931ec}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_ab8601803653ba8cce7e129230186f4e6}\label{interfaceShape_ab8601803653ba8cce7e129230186f4e6}} 
+\index{Shape@{Shape}!setColor@{setColor}}
+\index{setColor@{setColor}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Shape.\+set\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})}
+
+Metoda zmieniajaca kolor figury 
+\begin{DoxyParams}{Parameters}
+{\em color} & kolor \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_ab8995f3e51f8c3e5c639a348c93ff17b}{Triangle}}, \mbox{\hyperlink{classRectangle_a49490356ba8dbed31209c00fbf7ded41}{Rectangle}}, and \mbox{\hyperlink{classCircle_a7a643b7f4e331dda353862765385d566}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_addd9576106450ef2e911879883867a03}\label{interfaceShape_addd9576106450ef2e911879883867a03}} 
+\index{Shape@{Shape}!setX1@{setX1}}
+\index{setX1@{setX1}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{setX1()}{setX1()}}
+{\footnotesize\ttfamily void Shape.\+set\+X1 (\begin{DoxyParamCaption}\item[{int}]{x1 }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca pierwsza wspolrzedna poczatkowego punktu 
+\begin{DoxyParams}{Parameters}
+{\em x1} & pierwsza wspolrzedna poczatkowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_ae6ba97bd15cbd515f68118fe6819eda5}{Triangle}}, \mbox{\hyperlink{classRectangle_a3d8b0b05f91b65e8dc27dd5b176d7d94}{Rectangle}}, and \mbox{\hyperlink{classCircle_a9660061d31bda087cc49e4da82cb7c44}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_af64d5da7b99d6ed603deb4e544399a82}\label{interfaceShape_af64d5da7b99d6ed603deb4e544399a82}} 
+\index{Shape@{Shape}!setX2@{setX2}}
+\index{setX2@{setX2}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{setX2()}{setX2()}}
+{\footnotesize\ttfamily void Shape.\+set\+X2 (\begin{DoxyParamCaption}\item[{int}]{x2 }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca pierwsza wspolrzedna koncowego punktu 
+\begin{DoxyParams}{Parameters}
+{\em x2} & pierwsza wspolrzedna koncowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a7a300faa8f14f6eb699b37bf4e3d61b7}{Triangle}}, \mbox{\hyperlink{classRectangle_a690e2b1e43f0b2ab5a2b1b143bab1f33}{Rectangle}}, and \mbox{\hyperlink{classCircle_aa1516b33dae1f90b8bb81e0e8a05da63}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_a928df2f2439b2b9802b6419ff28b4aeb}\label{interfaceShape_a928df2f2439b2b9802b6419ff28b4aeb}} 
+\index{Shape@{Shape}!setY1@{setY1}}
+\index{setY1@{setY1}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{setY1()}{setY1()}}
+{\footnotesize\ttfamily void Shape.\+set\+Y1 (\begin{DoxyParamCaption}\item[{int}]{y1 }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca druga wspolrzedna poczatkowego punktu 
+\begin{DoxyParams}{Parameters}
+{\em y1} & druga wspolrzedna poczatkowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_a2692bc6ce4a6e741b30e899bf2bf8611}{Triangle}}, \mbox{\hyperlink{classRectangle_af4cba91868ac40df62ee414ed2038f61}{Rectangle}}, and \mbox{\hyperlink{classCircle_af0c12a841c3fbe8525b87cb2b94a1cf1}{Circle}}.
+
+\mbox{\Hypertarget{interfaceShape_aa3045c457249facb0541c10cfba17dd7}\label{interfaceShape_aa3045c457249facb0541c10cfba17dd7}} 
+\index{Shape@{Shape}!setY2@{setY2}}
+\index{setY2@{setY2}!Shape@{Shape}}
+\doxysubsubsection{\texorpdfstring{setY2()}{setY2()}}
+{\footnotesize\ttfamily void Shape.\+set\+Y2 (\begin{DoxyParamCaption}\item[{int}]{y2 }\end{DoxyParamCaption})}
+
+Metoda ustawiajaca druga wspolrzedna koncowego punktu 
+\begin{DoxyParams}{Parameters}
+{\em y2} & druga wspolrzedna koncowego punktu \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classTriangle_ae1320d59a3da61d6aea28e0d274e5622}{Triangle}}, \mbox{\hyperlink{classRectangle_a9ddee3163e4caac39b5301808063edb3}{Rectangle}}, and \mbox{\hyperlink{classCircle_acb9c07dc079774289c4396f39252e2ee}{Circle}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{mainClass_8java}{main\+Class.\+java}}\end{DoxyCompactItemize}
