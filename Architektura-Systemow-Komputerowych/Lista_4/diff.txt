@@ -1,0 +1,13 @@
+diff --git a/site.txt b/oldsite.txt
+index 86cc7d3..fdda9c8 100644
+--- a/site.txt
++++ b/oldsite.txt
+@@ -11,7 +11,7 @@ Exact time now:
+ 
+ 
+    Time in [4]Wrocław, Poland now:
+-   08:33:10
++   08:33:07
+ 
+ The clock will update automatically if you turn on JavaScript in your
+ browser.
