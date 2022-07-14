@@ -1,0 +1,9 @@
+Array Size: 1 T(n): 1.5204e-07 T(n)/n: 1.5204e-07
+Array Size: 2 T(n): 3.5624e-08 T(n)/n: 1.7812e-08
+Array Size: 3 T(n): 5.96961e-08 T(n)/n: 1.98987e-08
+Array Size: 4 T(n): 7.12961e-08 T(n)/n: 1.7824e-08
+Array Size: 5 T(n): 8.59748e-08 T(n)/n: 1.7195e-08
+Array Size: 6 T(n): 9.7732e-08 T(n)/n: 1.62887e-08
+Array Size: 7 T(n): 1.12828e-07 T(n)/n: 1.61183e-08
+Array Size: 8 T(n): 1.25838e-07 T(n)/n: 1.57297e-08
+Array Size: 9 T(n): 1.44232e-07 T(n)/n: 1.60258e-08

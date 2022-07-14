@@ -1,0 +1,12 @@
+# ninja log v5
+1	127	1648504106070601223	CMakeFiles/main.dir/dualPivotQuickSort.cpp.o	adb05bf811c70da2
+2	26	1648504793077804637	CMakeFiles/main.dir/hybridSort.cpp.o	e3e7c6c809a0d291
+0	42	1653219653140418024	build.ninja	79f998511c3c4dc
+3	260	1648329148122956088	CMakeFiles/main.dir/randomGenerator.cpp.o	2be6aa7b0a83d974
+347	388	1649250292648559590	main	ce05cd87ffe3b86c
+1	269	1649250154611426268	CMakeFiles/main.dir/mergeSort.cpp.o	8a50edc65d11b80
+1	300	1648413478613566726	CMakeFiles/main.dir/ascGenerator.cpp.o	bd6b48952297892
+1	229	1649187475684565326	CMakeFiles/main.dir/insertionSort.cpp.o	5395dfdd841cca9b
+1	347	1649250292605644579	CMakeFiles/main.dir/main.cpp.o	d1303101a1997277
+1	306	1648413478619963698	CMakeFiles/main.dir/descGenerator.cpp.o	b2ba2f559b3b1dde
+2	132	1648501986225423544	CMakeFiles/main.dir/quickSort.cpp.o	b035c8ef96ba17e4
