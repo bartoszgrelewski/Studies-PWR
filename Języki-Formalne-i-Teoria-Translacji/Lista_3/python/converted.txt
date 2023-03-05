@@ -1,0 +1,38 @@
+2 3 4 5 - * +
+result: 1234576
+2 100 ^
+result: 295422
+2 3 - 2 -
+result: 1234574
+269164 123456 /
+result: 567890
+1234575 1234576 -
+result: 1234576
+1 653599 /
+result: 123456
+1233666
+result: 1233666
+10
+result: 10
+syntax error
+2 123 ^
+result: 594706
+2 1234574^
+result: 925933
+cannot divide by zero
+incorrect character
+4 3 3 * + 9 -
+result: 4
+2 3 * 2 +
+result: 8
+2 3 * 2 4+ ^ 6 3- ^
+result: 223085
+4 2 -
+result: 2
+3 2 *
+result: 6
+2 2 ^ 2 1234574^ *
+result: 1
+2 1 823051/ ^
+result: 614911
+incorrect number in cyclic group
