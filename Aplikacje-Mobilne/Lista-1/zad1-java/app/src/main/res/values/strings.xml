@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">w01-java</string>
+    <string name="super_gra">Super GRA</string>
+    <string name="podaj">Podaj, ktora liczba\n jest wieksza?</string>
+    <string name="punkty">Punkty</string>
+    <string name="buttonLeft">Button</string>
+    <string name="buttonRight">Button</string>
+</resources>

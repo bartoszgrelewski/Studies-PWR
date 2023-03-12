@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Rock Paper Scissors</string>
+    <string name="reset">RESET</string>
+    <string name="phone">Phone</string>
+    <string name="you_vs_your_phone">You vs your phone</string>
+    <string name="player">Player</string>
+</resources>
