@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="minesweeper">Minesweeper</string>
+    <string name="button">Button</string>
+    <string name="start_game">Start Game</string>
+    <string name="todo">TODO</string>
+    <string name="mines">Mines</string>
+    <string name="restart">Restart</string>
+    <string name="timer">Timer</string>
+    <string name="_00_00">00:00</string>
+    <string name="choice_to_flag_or_to_reveal">Choice-to flag or to reveal</string>
+    <string name="mines_left">Mines Left</string>
+    <string name="_0">0</string>
+    <string name="win_message">Udalo Ci sie wygrac! </string>
+    <string name="congratulations">Gratulacje!!!</string>
+    <string name="result">Result</string>
+    <string name="lost_message">Slabo ☹</string>
+    <string name="game_loss">Przegrales niestety!</string>
+    <string name="continue_playing">Graj dalej</string>
+    <string name="exit">Wyjscie</string>
+    <string name="return_call">return</string>
+    <string name="abort">Na pewno chcesz wyjsc?</string>
+    <string name="exit_game">Wyjdz z gry</string>
+</resources>

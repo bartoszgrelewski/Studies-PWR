@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleCalendar</string>
+    <string name="set_up_new_event">Set-up new event</string>
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+    <string name="descripction">Descripction</string>
+    <string name="title">Title</string>
+    <string name="textview">TextView</string>
+</resources>
